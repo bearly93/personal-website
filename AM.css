@@ -1,0 +1,143 @@
+html, body {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+body {
+  font-family:Century Gothic, sans-serif;
+  background-image:url(Art_Fotor.jpg);
+  background-position: center right;
+  background-size: cover;
+  margin: 0;
+}
+
+a {
+  color: #204156;
+  text-decoration: none;
+}
+
+#top{
+    
+}
+#header{      /*Div Diminsions containing the Header menu*/
+    /*border-width:.5rem;
+    border-style:solid;*/
+    width:100%;
+    background:#F1EDEE;
+    top:1%;
+    text-align: center;
+}
+
+#top-bar{     /*Ul overall Attributes for menu*/
+    display:inline;
+    text-align:center;
+    background:#F1EDEE;
+    position:relative;
+}
+
+.nav {       /*Content of Ul for menu*/
+    display:inline;
+    padding:0 70px;
+    margin:auto;
+    color:#3D5467;
+    background:#F1EDEE;
+
+}
+li a{         /*Links in header Attributes*/
+    color:#3D5467;
+    background:#F1EDEE;
+    font-family:Century Gothic, sans-serif;
+}
+
+#AM {
+  text-align: center;
+  font-weight: 100;
+  background-color:rgba(228,230,236,0.7);  
+  width:15%;
+  min-width:15%; 
+  margin:5px auto;
+    border-radius:15px;
+}
+
+.Pictures {
+  margin-top: 20px;
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  /*background-image:url(Colorful%20painting%20.jpg);
+  background-position:center left;*/
+  
+}
+
+.gallery {
+  margin: 20px;
+}
+
+.gallery .thumbnail {
+  height:300px;
+  width:350px;
+  border: 2px solid #fff;
+    border-radius:15px;
+}
+
+#bottom{
+   width:70%;
+   margin:40px auto;
+   background-color:rgba(228,230,236,0.7);
+   border-radius:15px; 
+   text-align: center;    
+}
+
+
+#Brief Description {
+  border:solid;
+  border: 1px;
+  margin: 2px;
+  text-align: center;
+  padding: 30px;
+}
+
+/* FOOTER NAVIGATION */
+
+nav {
+  background-color: #FFF;
+}
+
+nav li {
+  display: inline;
+  margin: 0;
+  padding: 0 10px;
+}
+
+nav ul {
+  display: inline;
+}
+
+.contact-btn {
+  float: right;
+}
+
+.contact-btn a {
+  /*customization of contact button*/
+  cursor: pointer;
+  margin-right: 30px;
+  padding: 8px 18px;
+  border: 1px solid #204156;
+	position:relative;
+}
+
+.contact-btn a:active {
+top: 2px;
+  /*cause button to move down slightly when being clicked*/
+}
+
+nav a {
+  height: 60px;
+  line-height: 60px;
+  color: #204156;
+  text-decoration: none;
+}
+

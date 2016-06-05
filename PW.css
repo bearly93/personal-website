@@ -1,0 +1,113 @@
+/**{
+ background-color:#3D5467;
+}*/
+body{
+    background-position:top;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)),url(Art_Fotor.jpg) /*Added Background Image and gave thin layer on top                                                                                         for text visability*/ 
+}
+
+#wrapper { /*Holds everything in place when the Window resizes*/
+    margin-left:auto;
+    margin-right:auto;
+    width:1200px;
+    height:auto;
+}
+
+
+#header{      /*Div Diminsions containing the Header menu*/
+    /*border-width:.5rem;
+    border-style:solid;*/
+    width:100%;
+    background:#F1EDEE;
+    top:1%;
+    
+
+}
+
+#top-bar{     /*Ul overall Attributes for menu*/
+    display:inline;
+    text-align:center;
+    background:#F1EDEE;
+    position:relative;
+}
+
+.nav {       /*Content of Ul for menu*/
+    display:inline;
+    padding:0 70px;
+    margin:auto;
+    color:#3D5467;
+    background:#F1EDEE;
+
+}
+li a{         /*Links in header Attributes*/
+    color:#3D5467;
+    background:#F1EDEE;
+    font-family:Century Gothic, sans-serif;
+}
+div img {     /*More picture attribute*/
+    height:30px;
+    width:30px;
+    clear:both;
+    
+}
+a {           /*Attributes for all Links*/
+    text-decoration:none;
+}
+#image-box{   /*Div diminsions containing profile picture*/
+    position:relative;
+    width:50%;
+    margin:70px auto;
+    padding-right:26%
+}
+#profile{     /*Actual picture Attributes*/
+    position: static;
+    width: 300px; 
+    height: 300px; 
+    border-radius:130px;
+    border-style:solid;
+    border-width:.3px;
+    border-color:slategrey;
+    clear:both;
+}
+#text-box{
+    
+}
+#under-pic {  /*Ul list under picture, Used this id to stop following div from covering picture for some reason before i made it a Ul it worked                                 with "#text-box"*/
+    position: relative;
+    height:.01px;
+    background-color:rgba(255, 0, 0, 0.5);/*made div background transparent to stop from overlaping*/ 
+    margin-right: 2%;
+    
+    
+}
+.intro{       /*Content (li elements) of UL*/
+    clear:both;
+    text-align: center;
+    padding-top:15px;
+    padding-bottom:15px;
+    font-family:Century Gothic, sans-serif;
+    font-size: 1.3rem;
+    color:black;
+    /*text-shadow: 0px 1px 2px #555; /*text Effect saw online*/
+    
+}
+#SN{
+  margin-top:40%; /*Adjust this when adjusting wrapper specifics*/
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  
+}
+#FB{
+    display:block;
+    width:auto;
+    height:80px;
+    padding-right:30%
+}
+#Link{
+    display:block;
+    height:80px;
+    width:auto;
+    padding-left:30%;
+
+}

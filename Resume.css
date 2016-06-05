@@ -1,0 +1,48 @@
+/**{
+    background-color:#F5F5F5;
+}*/
+
+div{
+    border-radius:5px;
+}
+#header{
+    border-bottom-style:solid;
+    border-width:1.5px;
+    text-align:center;
+    /*background-color:#99B2B7;*/
+    /*border-color:#99B2B7;*/
+    /*height:900;
+    width:300;*/
+
+}
+img {
+    height:50px;
+    width:50px;
+    margin:right;
+    float:right;  
+}
+#email{
+    text-decoration:none;
+}
+.text{
+    Font-family:Times;
+    Font-size:12px;
+}
+ul li span{
+    text-align:right;
+    margin-right: auto;
+}
+.objective{
+    border-width:1px;
+    float:left;
+}
+.education{
+    border-style:solid;
+    border-width:1px;
+    background-color:#E6EFF2;
+    float:right;
+}
+.WorkExperince{
+    border-style:none;
+    border-width:1px;
+}
